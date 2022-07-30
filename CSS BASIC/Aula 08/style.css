@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+html,body{
+	height: 100%;
+}
+.center{
+	
+	width: 1280px;
+	margin: 0 auto;
+
+	background:gray ;
+	
+}
+
+
+.artigo{
+	
+	margin-bottom: 40px;
+
+}

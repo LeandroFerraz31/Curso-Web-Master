@@ -1,0 +1,21 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+html,body{
+	height: 100%;
+}
+
+/*a[href = "http://www.google.com" ]{
+background-color: yellow;
+
+a[attr~="google"]{
+background-color: aqua;
+}/*
+
+[class|="top"] {
+  background: yellow;
+}
+

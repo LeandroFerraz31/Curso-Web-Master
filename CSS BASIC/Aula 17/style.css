@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+html,body{
+	height: 100%;
+}
+
+ul{
+ list-style-position: inside;
+}
+
+ul li:nth-child(2){
+  color:red;
+}
+ul span:nth-child(5){
+color: red;
+}
+.box{
+  width: 100%;
+
+}
+
+
+.item{
+  box-sizing: border-box;
+float: left;
+width: 33.3%;
+height: 400px;
+background-color: red;
+border: 1px solid black;
+
+}
+.box div:nth-last-of-type(1){
+  background-color: green;
+}
+
+.box div:last-of-type {
+color: aqua;
+}
+
+
+.box p:last-of-type {
+  color: blue;
+}
+.box div:not(one){
+  background-color: gold;
+}
